@@ -14,5 +14,8 @@ namespace TOMS.Models
         public HazardClass Hazard { get; set; }
 
         public ICollection<CompanyMaterial> CompanyMaterials { get; set; }
+
+        public ICollection<TransportRFQMaterial> TransportRFQMaterials { get; set; }
+
     }
 }

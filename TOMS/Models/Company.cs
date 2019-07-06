@@ -25,7 +25,7 @@ namespace TOMS.Models
 
         public string UserId { get; set; }
 
-        public User User { get; set; }
+        public ICollection<User> Users { get; set; }
 
         public string WorkingHours { get; set; }
 
@@ -35,5 +35,8 @@ namespace TOMS.Models
 
         public ICollection<CompanyMaterial> CompanyMaterils { get; set; }
 
+        public ICollection<CompanyTransport> CompanyTransports { get; set; }
+
+        public ICollection<CompanyService> CompanyServices { get; set; }
     }
 }

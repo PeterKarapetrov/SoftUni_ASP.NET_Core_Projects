@@ -7,8 +7,10 @@ namespace TOMS.Enums
 {
     public enum Package
     {
-        Box,
+        Container20,
+        Container40,
         Pallet,
+        Box,
         Barel,
         Parcel,
         Case,

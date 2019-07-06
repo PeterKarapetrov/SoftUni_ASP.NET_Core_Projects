@@ -19,5 +19,17 @@ namespace TOMS.Models
         public string PhoneNumber { get; set; }
 
         public ICollection<Role> Roles { get; set; }
+
+        public string CompanyId { get; set; }
+
+        public Company Company { get; set; }
+
+        public ICollection<Offer> Offers { get; set; }
+
+        public ICollection<Order> Orders { get; set; }
+
+        public ICollection<Insurance> Insurances { get; set; }
+
+        public ICollection<TransportRFQ> TransportRFQs { get; set; }
     }
 }
